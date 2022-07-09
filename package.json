@@ -1,0 +1,23 @@
+{
+  "name": "writing-blog",
+  "version": "1.0.0",
+  "description": "An eleventy blog focused on writing craft and more.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Chloe Duncan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholeh/writing-blog.git"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --serve --watch",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-navigation": "^0.3.2"
+  }
+}
