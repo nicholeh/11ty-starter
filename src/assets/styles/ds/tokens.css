@@ -1,0 +1,18 @@
+:root {
+  /* Color styles */
+  --ink-dark: #2a2a2a;
+  --ink-base: #444444;
+  --ink-medium: #777777;
+  --ink-light: #f4f4f4;
+  --ink-lightest: #ffffff;
+  --primary-base: #4c6a72;
+  --secondary-base: #c64a24;
+  --secondary-medium: #de6f4c;
+  --secondary-light: #f0a784;
+  --secondary-lightest: #f9decd;
+
+  /* Fonts */
+  --default: "Crimson Pro", serif;
+  --display: "La Luxes Serif";
+  --script: "La Luxes Script";
+}

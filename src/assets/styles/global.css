@@ -1,0 +1,13 @@
+@import "./ds/reset.css";
+@import "./ds/tokens.css";
+@import "./ds/fonts.css";
+@import "./ds/typography.css";
+@import "./ds/elements.css";
+
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities;
+
+html {
+  background-color: var(--secondary-light);
+}

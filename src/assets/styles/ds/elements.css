@@ -1,0 +1,3 @@
+:where(hr) {
+  border-color: var(--ink-light);
+}

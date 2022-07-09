@@ -1,0 +1,32 @@
+:where(body) {
+  font-family: var(--default);
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-variant-ligatures: common-ligatures;
+}
+
+:where(h1),
+:where(h2) {
+  font-family: var(--display);
+  line-height: 100%;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:where(h1[data-heading^="display-1"]) {
+  font-family: var(--display);
+  font-size: clamp(3rem, 15vw, 9rem);
+  text-transform: uppercase;
+  background: linear-gradient(98deg, #ffffff 20%, #de6f4c 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+:where(h2[data-heading^="script-1"]) {
+  font-family: var(--script);
+  font-size: clamp(3rem, 15vw, 9rem);
+  color: var(--secondary-lightest);
+}
